@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(229, 23%, 23%);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid position-relative overflow-hidden bg-info">
+      <div class="row vh-100 justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-7 col-sm-8 mb-5">
+          <div class="row justify-content-center">
+            <div class="col-xl-7 col-md-9 col-sm-10 col-11">
+              <div class="card overflow-hidden shadow-lg text-center rounded-3">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/bg-pattern-card.svg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <div class="avatar-container">
+                    <img
+                      src="images/image-victor.jpg"
+                      class="rounded-circle avatar"
+                      alt=""
+                    />
+                  </div>
+                  <h5 class="fw-bold text-primary mt-4">
+                    Victor Crest
+                    <span class="text-secondary fw-light">26</span>
+                  </h5>
+                  <p class="fw-light text-secondary mb-0 fs-5">London</p>
+                </div>
+                <div class="card-footer bg-white py-3 px-4 py-md-4 px-md-5">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h5 class="fw-bolder mb-1 text-primary">80K</h5>
+                      <small class="control-sm d-block text-secondary"
+                        >Followers</small
+                      >
+                    </div>
+                    <div>
+                      <h5 class="fw-bolder mb-1 text-primary">803K</h5>
+                      <small class="control-sm d-block text-secondary"
+                        >Likes</small
+                      >
+                    </div>
+                    <div>
+                      <h5 class="fw-bolder mb-1 text-primary">1.4K</h5>
+                      <small class="control-sm d-block text-secondary"
+                        >Photos</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="attribution text-white">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Qui3tK1D</a>.
+        </div>
+      </div>
+      <img
+        src="images/bg-pattern-top.svg"
+        class="position-absolute pattern1"
+        alt=""
+      />
+      <img
+        src="images/bg-pattern-bottom.svg"
+        class="position-absolute pattern2"
+        alt=""
+      />
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
